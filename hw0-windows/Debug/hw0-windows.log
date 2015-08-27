@@ -1,0 +1,28 @@
+﻿生成启动时间为 2015/8/28,星期五 2:13:57。
+     1>项目“C:\Users\43587\Documents\GitHubVisualStudio\OpenGL0\hw0-windows\hw0-windows.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I./include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt mytest3.cpp shaders.cpp
+         shaders.cpp
+     1>c:\users\43587\documents\githubvisualstudio\opengl0\hw0-windows\include\freeimage.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\43587\documents\githubvisualstudio\opengl0\hw0-windows\shaders.cpp(69): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+         mytest3.cpp
+     1>c:\users\43587\documents\githubvisualstudio\opengl0\hw0-windows\include\freeimage.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\43587\documents\githubvisualstudio\opengl0\hw0-windows\geometry3.h(92): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>c:\users\43587\documents\githubvisualstudio\opengl0\hw0-windows\geometry3.h(93): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+     1>c:\users\43587\documents\githubvisualstudio\opengl0\hw0-windows\geometry3.h(97): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+     1>c:\users\43587\documents\githubvisualstudio\opengl0\hw0-windows\geometry3.h(91): warning C4101: “err”: 未引用的局部变量
+     1>c:\users\43587\documents\githubvisualstudio\opengl0\hw0-windows\mytest3.cpp(124): warning C4838: 从“double”转换到“const GLfloat”需要收缩转换
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\43587\Documents\GitHubVisualStudio\OpenGL0\Debug\hw0-windows.exe" /INCREMENTAL /NOLOGO /LIBPATH:.\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib glew32.lib glut32.lib glu32.lib opengl32.lib FreeImage.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\43587\Documents\GitHubVisualStudio\OpenGL0\Debug\hw0-windows.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\43587\Documents\GitHubVisualStudio\OpenGL0\Debug\hw0-windows.lib" /MACHINE:X86 Debug\mytest3.obj
+         Debug\shaders.obj
+         hw0-windows.vcxproj -> C:\Users\43587\Documents\GitHubVisualStudio\OpenGL0\Debug\hw0-windows.exe
+     1>已完成生成项目“C:\Users\43587\Documents\GitHubVisualStudio\OpenGL0\hw0-windows\hw0-windows.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:16.54
